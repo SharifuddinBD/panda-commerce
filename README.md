@@ -4,7 +4,7 @@
 A simple e-commerce landing page project built using **HTML**, **CSS**, and **Bootstrap**.  
 Live site: [https://sharifuddinbd.github.io/panda-commerce/](https://sharifuddinbd.github.io/panda-commerce/)
 
----
+
 
 ## 🚀 Features
 
@@ -16,7 +16,7 @@ Live site: [https://sharifuddinbd.github.io/panda-commerce/](https://sharifuddin
 - Smooth scroll to sections
 - Simple, modern UI
 
----
+
 
 ## 🔧 Technologies Used
 
@@ -25,7 +25,7 @@ Live site: [https://sharifuddinbd.github.io/panda-commerce/](https://sharifuddin
 - [Bootstrap 5](https://getbootstrap.com/)
 - GitHub Pages (for deployment)
 
----
+
 
 📬 Contact
 For questions or collaboration:
