@@ -27,20 +27,6 @@ Live site: [https://sharifuddinbd.github.io/panda-commerce/](https://sharifuddin
 
 ---
 
-## 📁 Project Structure
-panda-commerce/
-│
-├── index.html
-├── style.css
-├── images/
-│ ├── banner-images/
-│ ├── categories/
-│ └── shoes/
-└── README.md
-
-
----
-
 📬 Contact
 For questions or collaboration:
 Sharif Uddin
