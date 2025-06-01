@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <title>panda-commerce</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,28 +21,125 @@
         </div>
 
         <div class="container">
-            <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
+                <div id="carouselExample" class="carousel slide orange-bg" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                    <h1>Mi LED TV 4A PRO 32</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, nulla!</p>
+                    <h1 class="price">$1200</h1>
+                    <button type="button" class="btn btn-warning">BUY NOW >></button>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="3000">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                    <h1>Coole Dude Headphone</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt delectus laborum perferendis earum.</p>
+                    <h1 class="price">$420</h1>
+                    <button type="button" class="btn btn-warning">BUY NOW >></button>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                    <h1>X-Box for your living room</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1 class="price">$600</h1>
+                    <button type="button" class="btn btn-warning">BUY NOW >></button>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+        </div>
+
+        <div class="container categories">
+            <div class ="row">
+                <div class="col-md-4">
+                    <div class="cat1 d-flex justify-content-between align-items-center">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat2 d-flex justify-content-between align-items-center">
+                        <h1>Bag</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat3 d-flex justify-content-between align-items-center">
+                        <h1>Bag</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div class="container">
+            <h5>Shoes</h5>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias laboriosam eos amet dolore? Placeat!</p>
+                <h5>$120</h5>
+                <button type="button" class="btn btn-warning">BUY NOW>></button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi explicabo voluptatum, quos rerum facilis omnis?.</p>
+                <h5>$320</h5>
+                <button type="button" class="btn btn-warning">BUY NOW>></button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iste quidem, omnis sint quasi ab?/p>
+                <h5>$350</h5>
+                <button type="button" class="btn btn-warning">BUY NOW>></button>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

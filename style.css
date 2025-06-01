@@ -1,0 +1,51 @@
+.price{
+    color: #ec4899;
+}
+
+.orange-bg {
+    /* background-color: #FFE9E8; */
+
+}
+
+.row {
+    padding: 30px 30px;
+}
+
+.container {
+    padding : 20px;
+}
+
+.carousel-item {
+    padding: 20px, 40px;
+}
+
+.cat1, .cat2, .cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3{
+    background-color: lightskyblue;
+}
+
+.categories h1 {
+    color:white;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
