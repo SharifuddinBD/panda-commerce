@@ -3,7 +3,7 @@
 }
 
 .orange-bg {
-    /* background-color: #FFE9E8; */
+      background-color: #FFE9E8;  
 
 }
 
@@ -48,4 +48,8 @@
     border: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     
+}
+
+#SUBSCRIBE {
+    height: 300px;
 }
